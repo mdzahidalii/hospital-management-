@@ -1,0 +1,15 @@
+{
+  "name": "doctor-management-saas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Doctor Management Software - Phase 1 Foundation & Dashboard",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev": "node -e \"console.log('To run both client and server, run npm run dev:server in one terminal and npm run dev:client in another, or run server and client individually.')\"",
+    "build:client": "npm --prefix client run build",
+    "lint:client": "npm --prefix client run lint",
+    "test:server": "npm --prefix server test",
+    "test": "npm --prefix server test"
+  }
+}
